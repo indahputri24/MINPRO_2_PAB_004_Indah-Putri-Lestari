@@ -84,7 +84,7 @@ Pada sisi kanan AppBar terdapat ikon logout, yang digunakan untuk keluar dari ak
 
 Terdapat kartu Saldo Saat Ini yang menampilkan total saldo berdasarkan hasil perhitungan antara total pemasukan dan total pengeluaran. Selain itu juga ditampilkan ringkasan jumlah pemasukan (ditandai warna hijau) dan pengeluaran (ditandai warna merah).
 
-![image alt](https://github.com/indahputri24/MINPRO_2_PAB_004_Indah-Putri-Lestari/blob/4bf692db74cf549b03e6af12d5a1098d6271ee73/screenshot/Cuplikan%20layar%202026-03-15%20221037.png)
+![image alt](https://github.com/indahputri24/MINPRO_2_PAB_004_Indah-Putri-Lestari/blob/4c4b4aab72b5b4f92bd15bd69069529594097cf1/screenshot/Cuplikan%20layar%202026-03-15%20221919.png)
 
 Pengguna juga dapat menekan ikon mata untuk menyembunyikan atau menampilkan jumlah saldo, sehingga membantu menjaga privasi ketika aplikasi digunakan di tempat umum.
 
@@ -196,11 +196,11 @@ Jika pengguna memilih Hapus, maka data transaksi akan dihapus dari aplikasi seka
 
 ![image alt](https://github.com/indahputri24/MINPRO_2_PAB_004_Indah-Putri-Lestari/blob/a1618b9330c4bcbe35c7f59f48553366ab94daf7/screenshot/Cuplikan%20layar%202026-03-16%20132246.png)
 
-Ketika pengguna menekan tombol Hapus pada detail transaksi, aplikasi akan menampilkan popup konfirmasi penghapusan. Popup ini bertujuan untuk memastikan bahwa pengguna benar-benar ingin menghapus transaksi tersebut.
+Setelah pengguna menekan tombol Hapus dan mengonfirmasi penghapusan transaksi, aplikasi akan menampilkan notifikasi bahwa transaksi berhasil dihapus.
 
-Pada tampilan ini terdapat dua pilihan, yaitu Batal untuk membatalkan proses penghapusan dan kembali ke halaman sebelumnya, serta Hapus untuk melanjutkan proses penghapusan data transaksi.
+Pada tampilan ini muncul pesan “Transaksi Dihapus” yang menandakan bahwa data transaksi telah berhasil dihapus dari sistem. Notifikasi ini juga disertai ikon centang sebagai indikator bahwa proses penghapusan berhasil dilakukan.
 
-Jika pengguna memilih Hapus, maka data transaksi akan dihapus dari aplikasi sekaligus dari database Supabase, sehingga transaksi tersebut tidak lagi muncul pada daftar transaksi.
+Setelah proses ini selesai, data transaksi tersebut tidak lagi muncul pada daftar transaksi di aplikasi karena sudah terhapus dari database Supabase.
 
 - Data di Supabase
 
