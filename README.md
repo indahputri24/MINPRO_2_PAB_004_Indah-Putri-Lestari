@@ -56,7 +56,7 @@ Jika nominal yang dimasukkan terlalu besar dan tidak wajar (misalnya miliaran at
 
 ![image alt](https://github.com/indahputri24/MINPRO_2_PAB_004_Indah-Putri-Lestari/blob/a18c0a7ba9fb4c2ba6cccc78ac3ddecd6302da6c/screenshot/Cuplikan%20layar%202026-03-15%20214254.png)
 
-Jika pengguna hanya mengisi angka 0, maka akan muncuk pesan: "Jumlah harus > 0", yang artinya jumlah atau nominal harus diisi lebih dari 0.
+Jika pengguna hanya mengisi angka 0, maka akan muncul pesan: "Jumlah harus > 0", yang artinya jumlah atau nominal harus diisi lebih dari 0.
 
 ### c. Validasi Input Kolom Keterangan
 
