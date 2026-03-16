@@ -6,13 +6,13 @@ NIM: 2409116004
 
 Kelas: A
 
-# Deskripsi Apliksi Catatan Keuangan Pribadi (MY PINK FINCARE)
+# Deskripsi Apliksi Catatan Keuangan Pribadi (MY PINK FINANCE)
 
 My Pink Finance adalah aplikasi pencatatan keuangan pribadi yang dibuat menggunakan Flutter. Aplikasi ini membantu pengguna dalam mencatat pemasukan dan pengeluaran dengan mudah serta memantau kondisi keuangan secara terorganisir.
 
 Pengguna dapat menambahkan, mengedit, dan menghapus transaksi, memilih kategori transaksi, serta melihat riwayat transaksi berdasarkan tanggal melalui tampilan kalender maupun daftar transaksi. Aplikasi ini juga dilengkapi dengan fitur autentikasi pengguna menggunakan Supabase serta pilihan tampilan light mode dan dark mode untuk meningkatkan kenyamanan penggunaan.
 
-# Fitur Aplikasi Catatan Keuangan Pribadi (MY PINK FINCARE)
+# Fitur Aplikasi Catatan Keuangan Pribadi (MY PINK FINANCE)
 
 ## 1. Tambah Data Transaksi ke Supabase
 
@@ -360,7 +360,7 @@ Pada file `main.dart`, konfigurasi tersebut akan dipanggil menggunakan package `
 
 Kode tersebut berfungsi untuk membaca variabel dari file `.env`, kemudian menggunakan nilai tersebut untuk menginisialisasi koneksi aplikasi dengan Supabase. Dengan cara ini, aplikasi dapat terhubung dengan backend dan database Supabase tanpa harus menuliskan informasi sensitif secara langsung di dalam kode program.
 
-# Widget yang Digunakan Apliksi Catatan Keuangan Pribadi (MY PINK FINCARE)
+# Widget yang Digunakan Apliksi Catatan Keuangan Pribadi (MY PINK FINANCE)
 
 ### A. Widget Struktur Utama
 1. GetMaterialApp: Digunakan sebagai widget utama (root) aplikasi yang mengaktifkan fitur dari library GetX seperti navigasi antar halaman, pengaturan tema aplikasi, serta pengelolaan state secara global.
