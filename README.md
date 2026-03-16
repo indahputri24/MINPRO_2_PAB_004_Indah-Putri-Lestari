@@ -298,9 +298,141 @@ Ketika tombol Kirim Ulang Email ditekan, sistem akan mengirim kembali link verif
 
 Untuk mencegah penyalahgunaan, tombol kirim ulang juga dilengkapi dengan waktu tunggu (countdown 3 menit) sebelum pengguna dapat mengirim ulang email verifikasi berikutnya.
 
+### g. Notifikasi Registrasi Gagal
+
+![image alt](https://github.com/indahputri24/MINPRO_2_PAB_004_Indah-Putri-Lestari/blob/4b999e7967cdcaac1f99bd2fe10c0b348156a4e2/screenshot/Cuplikan%20layar%202026-03-15%20222148.png)
+
+Pada tampilan ini terlihat notifikasi “Registrasi Gagal” yang muncul ketika pengguna mencoba melakukan pendaftaran akun terlalu sering dalam waktu yang berdekatan.
+
+Pesan “Terlalu banyak percobaan registrasi. Silakan tunggu beberapa menit sebelum mencoba lagi.” menunjukkan bahwa sistem keamanan dari layanan autentikasi membatasi jumlah percobaan pendaftaran dalam periode waktu tertentu. Hal ini bertujuan untuk mencegah penyalahgunaan sistem atau spam registrasi.
+
+Pengguna perlu menunggu beberapa menit terlebih dahulu, kemudian dapat mencoba kembali proses registrasi setelah batas waktu tersebut selesai.
+
 ## 7. Light Mode dan Dark Mode (Nilai Tambah)
 
-## 8. File .env (Nilai Tambah)
+![image alt](https://github.com/indahputri24/MINPRO_2_PAB_004_Indah-Putri-Lestari/blob/4b999e7967cdcaac1f99bd2fe10c0b348156a4e2/screenshot/Cuplikan%20layar%202026-03-15%20221947.png)
+
+Aplikasi ini juga menyediakan fitur Light Mode dan Dark Mode yang memungkinkan pengguna mengganti tampilan tema sesuai preferensi. Pengguna dapat mengubah tema dengan menekan ikon mode di bagian AppBar.
+
+Jika Light Mode aktif, tampilan aplikasi akan menggunakan warna terang seperti putih dan pink, sehingga terlihat lebih cerah dan nyaman digunakan pada kondisi cahaya yang cukup.
+
+Sedangkan jika Dark Mode diaktifkan, tampilan aplikasi akan berubah menjadi warna lebih gelap, sehingga lebih nyaman digunakan pada kondisi cahaya rendah serta dapat membantu mengurangi kelelahan mata.
+
+Perubahan tema ini akan langsung diterapkan ke seluruh tampilan aplikasi, dan pengaturan tema juga tetap tersimpan sehingga ketika aplikasi dibuka kembali, tema yang terakhir dipilih akan tetap digunakan.
+
+### Tampilan Lainnya
+
+![image alt](https://github.com/indahputri24/MINPRO_2_PAB_004_Indah-Putri-Lestari/blob/4b999e7967cdcaac1f99bd2fe10c0b348156a4e2/screenshot/Cuplikan%20layar%202026-03-15%20221952.png)
+
+![image alt](https://github.com/indahputri24/MINPRO_2_PAB_004_Indah-Putri-Lestari/blob/4b999e7967cdcaac1f99bd2fe10c0b348156a4e2/screenshot/Cuplikan%20layar%202026-03-15%20222005.png)
+
+![image alt](https://github.com/indahputri24/MINPRO_2_PAB_004_Indah-Putri-Lestari/blob/4b999e7967cdcaac1f99bd2fe10c0b348156a4e2/screenshot/Cuplikan%20layar%202026-03-15%20222014.png)
+
+![image alt](https://github.com/indahputri24/MINPRO_2_PAB_004_Indah-Putri-Lestari/blob/4b999e7967cdcaac1f99bd2fe10c0b348156a4e2/screenshot/Cuplikan%20layar%202026-03-15%20222023.png)
+
+![image alt](https://github.com/indahputri24/MINPRO_2_PAB_004_Indah-Putri-Lestari/blob/4b999e7967cdcaac1f99bd2fe10c0b348156a4e2/screenshot/Cuplikan%20layar%202026-03-15%20222029.png)
+
+![image alt](https://github.com/indahputri24/MINPRO_2_PAB_004_Indah-Putri-Lestari/blob/4b999e7967cdcaac1f99bd2fe10c0b348156a4e2/screenshot/Cuplikan%20layar%202026-03-15%20222035.png)
+
+![image alt](https://github.com/indahputri24/MINPRO_2_PAB_004_Indah-Putri-Lestari/blob/4b999e7967cdcaac1f99bd2fe10c0b348156a4e2/screenshot/Cuplikan%20layar%202026-03-15%20222046.png)
+
+![image alt](https://github.com/indahputri24/MINPRO_2_PAB_004_Indah-Putri-Lestari/blob/4b999e7967cdcaac1f99bd2fe10c0b348156a4e2/screenshot/Cuplikan%20layar%202026-03-15%20222104.png)
+
+![image alt](https://github.com/indahputri24/MINPRO_2_PAB_004_Indah-Putri-Lestari/blob/4b999e7967cdcaac1f99bd2fe10c0b348156a4e2/screenshot/Cuplikan%20layar%202026-03-15%20222120.png)
+
+![image alt](https://github.com/indahputri24/MINPRO_2_PAB_004_Indah-Putri-Lestari/blob/4b999e7967cdcaac1f99bd2fe10c0b348156a4e2/screenshot/Cuplikan%20layar%202026-03-15%20222124.png)
+
+## 8. Konfigurasi File `.env` (Nilai Tambah)
+
+![image alt](https://github.com/indahputri24/MINPRO_2_PAB_004_Indah-Putri-Lestari/blob/ca54c3e87a383d63af71c0df3308beeb02fa3c3d/screenshot/Cuplikan%20layar%202026-03-16%20154126.png)
+
+Aplikasi ini menggunakan file `.env` untuk menyimpan konfigurasi penting yang digunakan saat aplikasi berjalan. File ini berfungsi untuk menyimpan informasi sensitif, seperti URL proyek Supabase dan API Key, agar tidak langsung ditulis di dalam kode program. Dengan menggunakan `.env`, data penting seperti Supabase URL dan Anon Public Key dapat dipisahkan dari kode utama aplikasi.
+
+![image alt](https://github.com/indahputri24/MINPRO_2_PAB_004_Indah-Putri-Lestari/blob/912c8c68aa316061b593d68a33feaed7d882af6c/screenshot/Cuplikan%20layar%202026-03-16%20154428.png)
+
+Pada file .env, terdapat beberapa variabel konfigurasi seperti:
+
+`SUPABASE_URL`: berisi alamat URL dari proyek Supabase yang digunakan aplikasi MY PINK FINCARE.
+
+`SUPABASE_ANON_KEY`: berisi API key publik yang digunakan untuk menghubungkan aplikasi dengan database Supabase.
+
+Pada file `main.dart`, konfigurasi tersebut akan dipanggil menggunakan package `flutter_dotenv` sebelum aplikasi dijalankan. Kode yang digunakan adalah sebagai berikut:
+
+![image alt](https://github.com/indahputri24/MINPRO_2_PAB_004_Indah-Putri-Lestari/blob/797a565f996183afb4e17c5e1af247f701d9fd6e/screenshot/Cuplikan%20layar%202026-03-16%20155529.png)
+
+Kode tersebut berfungsi untuk membaca variabel dari file `.env`, kemudian menggunakan nilai tersebut untuk menginisialisasi koneksi aplikasi dengan Supabase. Dengan cara ini, aplikasi dapat terhubung dengan backend dan database Supabase tanpa harus menuliskan informasi sensitif secara langsung di dalam kode program.
 
 # Widget yang Digunakan Apliksi Catatan Keuangan Pribadi (MY PINK FINCARE)
+
+### A. Widget Struktur Utama
+1. GetMaterialApp: Digunakan sebagai widget utama (root) aplikasi yang mengaktifkan fitur dari library GetX seperti navigasi antar halaman, pengaturan tema aplikasi, serta pengelolaan state secara global.
+2. Scaffold: Digunakan sebagai kerangka dasar tampilan setiap halaman aplikasi, yang menampung komponen utama seperti AppBar, body, serta FloatingActionButton.
+3. AppBar: Digunakan sebagai bagian header di halaman utama aplikasi untuk menampilkan informasi pengguna, tombol logout, serta tombol untuk mengganti mode tema (dark mode atau light mode).
+4. SafeArea: Digunakan untuk memastikan tampilan aplikasi tidak tertutup oleh area sistem perangkat seperti notch, status bar, atau bagian layar lainnya.
+   
+### B. Widget Layout (Pengatur Tata Letak)
+5. Column: Digunakan untuk menyusun beberapa widget secara vertikal, misalnya pada form login, register, dan tampilan informasi pada halaman utama.
+6. Row: Digunakan untuk menyusun widget secara horizontal, seperti pada tampilan menu, informasi saldo, serta elemen-elemen yang ditampilkan berdampingan.
+7. Container: Digunakan sebagai pembungkus widget yang memungkinkan pemberian dekorasi seperti warna latar belakang, border, radius sudut, padding, dan bayangan agar tampilan lebih menarik.
+8. Padding: Digunakan untuk memberikan jarak di dalam widget sehingga elemen tampilan tidak terlalu rapat dan terlihat lebih rapi.
+9. SizedBox: Digunakan untuk memberikan jarak antar widget atau menentukan ukuran tertentu pada suatu komponen tampilan.
+10. Center: Digunakan untuk memposisikan widget agar berada tepat di tengah layar, misalnya pada tampilan halaman login dan register.
+11. Expanded: Digunakan agar suatu widget dapat mengisi ruang kosong yang tersedia dalam layout Row atau Column.
+12. Spacer: Digunakan untuk memberikan ruang kosong fleksibel di antara widget sehingga tata letak menjadi lebih seimbang.
+13. Stack: Digunakan untuk menumpuk beberapa widget secara berlapis, misalnya untuk membuat dekorasi background pada halaman login dan register.
+14. Positioned: Digunakan dalam widget Stack untuk mengatur posisi spesifik suatu widget pada layar, seperti posisi dekorasi lingkaran pada background.
+15. ConstrainedBox: Digunakan untuk membatasi ukuran maksimum suatu widget, sehingga tampilan aplikasi tetap rapi pada layar yang lebih besar.
+16. Builder: Digunakan untuk membuat context baru ketika diperlukan dalam suatu bagian widget tertentu.
+
+### C. Widget Input & Form
+17. Form: Digunakan untuk membungkus beberapa input field sehingga dapat dilakukan proses validasi sebelum data dikirim atau diproses.
+18. TextFormField: Digunakan sebagai komponen input teks yang memiliki fitur validasi, misalnya untuk mengisi email, password, jumlah transaksi, dan keterangan transaksi.
+19. TextField: Digunakan sebagai input teks sederhana tanpa validasi khusus.
+
+### D. Widget Teks & Icon
+20. Text: Digunakan untuk menampilkan berbagai informasi teks dalam aplikasi seperti judul halaman, label input, keterangan transaksi, dan nilai saldo.
+21. Icon: Digunakan untuk menampilkan ikon visual yang membantu memperjelas fungsi suatu komponen, seperti ikon dompet, kalender, tambah transaksi, dan lainnya.
+22. CircleAvatar: Digunakan untuk menampilkan avatar berbentuk lingkaran yang berisi huruf pertama dari nama pengguna pada AppBar.
+
+### E. Widget Tombol
+23. ElevatedButton: Digunakan sebagai tombol utama dalam aplikasi, misalnya tombol login, register, atau tombol untuk menyimpan transaksi.
+24. ElevatedButton.icon: Digunakan untuk tombol yang menampilkan ikon dan teks sekaligus, misalnya pada tombol hapus transaksi.
+25. OutlinedButton: Digunakan sebagai tombol dengan garis tepi (border) tanpa warna latar, misalnya pada tombol kirim ulang email verifikasi.
+26. OutlinedButton.icon: Digunakan sebagai tombol dengan kombinasi ikon dan teks dengan gaya outlined, seperti tombol kembali ke halaman login.
+27. TextButton: Digunakan sebagai tombol berbentuk teks yang biasanya digunakan untuk navigasi ringan seperti menuju halaman register.
+28. FloatingActionButton: Digunakan pada halaman utama untuk memberikan akses cepat kepada pengguna untuk menambahkan transaksi baru.
+29. IconButton: Digunakan sebagai tombol berbentuk ikon, misalnya untuk logout, mengganti tema aplikasi, atau menampilkan dan menyembunyikan saldo.
+
+### F. Widget List & Grid
+30. ListView.builder: Digunakan untuk menampilkan daftar transaksi secara dinamis berdasarkan data yang diperoleh dari database.
+31. GridView.builder: Digunakan untuk menampilkan kategori transaksi dalam bentuk grid sehingga pengguna dapat memilih kategori dengan lebih mudah.
+
+### G. Widget Navigasi & Dialog
+32. AlertDialog: Digunakan untuk menampilkan dialog konfirmasi sebelum melakukan tindakan penting seperti logout atau menghapus transaksi.
+33. Dialog: Digunakan untuk menampilkan notifikasi khusus seperti pesan sukses setelah suatu operasi berhasil dilakukan.
+34. BottomSheet: Digunakan untuk menampilkan detail transaksi dalam bentuk panel yang muncul dari bagian bawah layar.
+
+### H. Widget Animasi
+35. AnimatedSwitcher: Digunakan untuk memberikan efek animasi saat terjadi pergantian tampilan antara mode kalender dan mode daftar transaksi.
+36. AnimatedContainer: Digunakan untuk membuat animasi perubahan properti seperti warna atau ukuran pada suatu widget.
+37. AnimatedBuilder: Digunakan untuk membuat efek animasi khusus seperti efek getaran (shake) pada field password ketika login gagal.
+38. SlideTransition: Digunakan untuk memberikan animasi pergeseran posisi widget saat berpindah tampilan.
+39. FadeTransition: Digunakan untuk memberikan efek animasi transparansi saat widget muncul atau berganti.
+40. Transform: Digunakan untuk mengubah posisi atau bentuk suatu widget, misalnya untuk membuat efek pergeseran pada animasi.
+
+### I. Widget Scroll
+41. SingleChildScrollView: Digunakan agar halaman dapat di-scroll ketika konten melebihi ukuran layar perangkat.
+
+### J. Widget Utility
+42. Card: Digunakan untuk menampilkan komponen dengan gaya material design berupa kartu yang memiliki bayangan dan sudut membulat.
+43. Divider: Digunakan untuk membuat garis pemisah antar bagian tampilan agar informasi lebih terstruktur.
+44. CircularProgressIndicator: Digunakan untuk menampilkan indikator loading ketika aplikasi sedang memproses suatu operasi seperti login atau registrasi.
+45. ValueKey: Digunakan untuk memberikan identitas unik pada widget sehingga animasi dan perubahan state dapat diproses dengan benar.
+
+### K. Widget GetX
+46. Obx: Digunakan sebagai widget dari library GetX yang memungkinkan tampilan aplikasi diperbarui secara otomatis ketika nilai state berubah.
+
+### L. Widget Package Tambahan
+47. TableCalendar: Digunakan untuk menampilkan kalender interaktif yang memungkinkan pengguna memilih tanggal transaksi pada halaman utama aplikasi.
+
 
