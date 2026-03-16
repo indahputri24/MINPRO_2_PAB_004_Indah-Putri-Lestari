@@ -208,7 +208,7 @@ Setelah proses penghapusan dilakukan melalui aplikasi, data transaksi “Tahu Ba
 
 ## 5. Login (Nilai Tambah)
 
-Halaman Login digunakan oleh pengguna untuk masuk ke dalam aplikasi setelah akun berhasil dibuat dan diverifikasi.
+Supabase Auth digunakan untuk mengelola proses autentikasi pengguna pada aplikasi. Pada fitur login, pengguna memasukkan email dan password melalui halaman login, kemudian aplikasi mengirimkan data tersebut ke Supabase untuk diverifikasi. Jika email dan password sesuai dengan akun yang terdaftar, Supabase akan mengizinkan pengguna masuk ke aplikasi dan membuat sesi login. Setelah berhasil login, pengguna dapat mengakses fitur aplikasi seperti melihat, menambah, atau mengedit data transaksi.
 
 ### a. Validasi Input Kosong
 
@@ -228,11 +228,11 @@ Jika pengguna memasukkan email atau password yang salah, sistem akan menampilkan
 
 ![image alt](https://github.com/indahputri24/MINPRO_2_PAB_004_Indah-Putri-Lestari/blob/a18c0a7ba9fb4c2ba6cccc78ac3ddecd6302da6c/screenshot/Cuplikan%20layar%202026-03-15%20214058.png)
 
-Jika pengguna telah mengisi Email dan Password dengan benar, lalu pengguna menekan tombol Login, aplikasi akan memproses data email dan password yang dimasukkan. Selama proses ini berlangsung, tombol login akan berubah menjadi indikator loading sebagai tanda bahwa sistem sedang melakukan proses autentikasi.
-
-Hal ini bertujuan untuk memberi tahu pengguna bahwa aplikasi sedang memeriksa data login sebelum mengarahkan pengguna ke halaman utama aplikasi jika proses login berhasil.
+Jika pengguna telah mengisi Email dan Password dengan benar, lalu pengguna menekan tombol Login, aplikasi akan memproses data email dan password yang dimasukkan. Selama proses ini berlangsung, tombol login akan berubah menjadi indikator loading sebagai tanda bahwa sistem sedang melakukan proses autentikasi. Hal ini bertujuan untuk memberi tahu pengguna bahwa aplikasi sedang memeriksa data login sebelum mengarahkan pengguna ke halaman utama aplikasi jika proses login berhasil.
 
 ## 6. Register (Nilai Tambah)
+
+Supabase Auth digunakan untuk proses pembuatan akun baru pada aplikasi. Pada fitur register, pengguna memasukkan data seperti nama, email, dan password melalui halaman pendaftaran. Data tersebut kemudian dikirim ke Supabase untuk dibuatkan akun baru. Jika proses berhasil, Supabase akan menyimpan akun pengguna dan mengirimkan email verifikasi agar pengguna dapat mengaktifkan akunnya sebelum melakukan login ke aplikasi.
 
 ### a. Validasi Input Kosong
 
