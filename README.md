@@ -22,7 +22,7 @@ Halaman Tambah Transaksi digunakan untuk mencatat transaksi keuangan baru. Pada 
 
 Selain itu, pengguna juga dapat menambahkan catatan tambahan (opsional) jika diperlukan. Setelah semua data diisi dengan benar, pengguna dapat menekan tombol Simpan untuk menyimpan transaksi ke dalam sistem sehingga data tersebut akan muncul pada daftar transaksi dan mempengaruhi total saldo.
 
-#### Notifikasi Berhasil Menambahkan Transaksi
+### Notifikasi Berhasil Menambahkan Transaksi
 
 ![image alt](https://github.com/indahputri24/MINPRO_2_PAB_004_Indah-Putri-Lestari/blob/a18c0a7ba9fb4c2ba6cccc78ac3ddecd6302da6c/screenshot/Cuplikan%20layar%202026-03-15%20214455.png)
 
@@ -30,7 +30,7 @@ Setelah pengguna menekan tombol Simpan pada halaman tambah transaksi, aplikasi a
 
 Notifikasi ini berfungsi sebagai pemberitahuan kepada pengguna bahwa proses penyimpanan data berhasil dilakukan, dan transaksi tersebut akan langsung mempengaruhi saldo serta daftar transaksi pada halaman utama aplikasi.
 
-#### Validasi Input Kolom Jumlah
+### Validasi Input Kolom Jumlah
 
 Kolom Jumlah memiliki sistem validasi untuk memastikan jumlah atau nominal yang dimasukkan pengguna sesuai dan logis.
 
@@ -58,7 +58,7 @@ Jika nominal yang dimasukkan terlalu besar dan tidak wajar (misalnya miliaran at
 
 Jika pengguna hanya mengisi angka 0, maka akan muncuk pesan: "Jumlah harus > 0", yang artinya jumlah atau nominal harus diisi lebih dari 0.
 
-#### Validasi Input Kolom Keterangan
+### Validasi Input Kolom Keterangan
 
 ![image alt](https://github.com/indahputri24/MINPRO_2_PAB_004_Indah-Putri-Lestari/blob/a18c0a7ba9fb4c2ba6cccc78ac3ddecd6302da6c/screenshot/Cuplikan%20layar%202026-03-15%20214226.png)
 
@@ -66,7 +66,7 @@ Kolom Keterangan memiliki validasi untuk memastikan pengguna tidak mengosongkan 
 
 ## 2. Tampilan Data Transaksi dari Supabase
 
-#### AppBar Home Page
+### AppBar Home Page
 
 ![image alt](https://github.com/indahputri24/MINPRO_2_PAB_004_Indah-Putri-Lestari/blob/726bd20c2c3ad47c45fd0775ac5a1dac6b28d7d9/screenshot/Cuplikan%20layar%202026-03-16%20134947.png)
 
@@ -78,7 +78,7 @@ Di sampingnya terdapat sapaan personal, yaitu “Hai, Indah Putri” disertai te
 
 Pada sisi kanan AppBar terdapat ikon logout, yang digunakan untuk keluar dari akun. Ketika ikon tersebut ditekan, pengguna akan diarahkan untuk keluar dari aplikasi dan kembali ke halaman login.
 
-#### Header
+### Header
 
 ![image alt](https://github.com/indahputri24/MINPRO_2_PAB_004_Indah-Putri-Lestari/blob/4bf692db74cf549b03e6af12d5a1098d6271ee73/screenshot/Cuplikan%20layar%202026-03-15%20221037.png)
 
@@ -88,7 +88,7 @@ Terdapat kartu Saldo Saat Ini yang menampilkan total saldo berdasarkan hasil per
 
 Pengguna juga dapat menekan ikon mata untuk menyembunyikan atau menampilkan jumlah saldo, sehingga membantu menjaga privasi ketika aplikasi digunakan di tempat umum.
 
-#### Tampilan Menu Icon Transaksi
+### Tampilan Menu Icon Transaksi
 
 ![image alt](https://github.com/indahputri24/MINPRO_2_PAB_004_Indah-Putri-Lestari/blob/4bf692db74cf549b03e6af12d5a1098d6271ee73/screenshot/Cuplikan%20layar%202026-03-15%20221117.png)
 
@@ -98,7 +98,7 @@ Pada menu Transaksi, aplikasi menampilkan daftar seluruh transaksi yang telah di
 
 Selain itu, halaman ini juga dilengkapi dengan fitur range tanggal yang memungkinkan pengguna untuk memfilter transaksi berdasarkan rentang tanggal tertentu. Dengan fitur ini, pengguna dapat melihat riwayat transaksi dalam periode waktu yang diinginkan sehingga lebih mudah untuk memantau aktivitas keuangan.
 
-#### Tampilan Menu Icon Kalender
+### Tampilan Menu Icon Kalender
 
 ![image alt](https://github.com/indahputri24/MINPRO_2_PAB_004_Indah-Putri-Lestari/blob/4bf692db74cf549b03e6af12d5a1098d6271ee73/screenshot/Cuplikan%20layar%202026-03-15%20221053.png)
 
@@ -112,7 +112,7 @@ Tanggal yang sedang dipilih akan ditandai dengan warna utama (pink) sebagai indi
 
 Jika pada tanggal tersebut tidak terdapat transaksi, maka aplikasi akan menampilkan informasi bahwa tidak ada transaksi pada hari tersebut.
 
-#### Tampilan Detail Transaksi
+### Tampilan Detail Transaksi
 
 ![image alt](https://github.com/indahputri24/MINPRO_2_PAB_004_Indah-Putri-Lestari/blob/a1618b9330c4bcbe35c7f59f48553366ab94daf7/screenshot/Cuplikan%20layar%202026-03-16%20132746.png)
 
@@ -126,7 +126,7 @@ Tampilan ini digunakan pengguna untuk memastikan kembali data transaksi yang ada
 
 ## 3. Edit Data Transaksi
 
-#### Sebelum Edit Data
+### Sebelum Edit Data
 
 ![image alt](https://github.com/indahputri24/MINPRO_2_PAB_004_Indah-Putri-Lestari/blob/44c09ad1cd3afdac13f69b6add7ebb8300fb6261/screenshot/Cuplikan%20layar%202026-03-16%20130656.png)
 
@@ -138,7 +138,7 @@ Pada contoh sebelum edit data ini, transaksi memiliki kategori Makan, dengan ket
 
 Baris data yang dicentang menunjukkan transaksi dengan keterangan “Sate Ayam” yang memiliki jumlah Rp2, kategori Makan, dan tipe Pengeluaran dengan tanggal 15 Maret 2026. Data ini merupakan data awal sebelum dilakukan proses edit pada aplikasi.
 
-#### Edit Data
+### Edit Data
 
 ![image alt](https://github.com/indahputri24/MINPRO_2_PAB_004_Indah-Putri-Lestari/blob/44c09ad1cd3afdac13f69b6add7ebb8300fb6261/screenshot/Cuplikan%20layar%202026-03-16%20130717.png)
 
@@ -148,7 +148,7 @@ Pada contoh ini, sebelumnya transaksi memiliki nominal Rp2, kemudian pengguna me
 
 Setelah perubahan selesai dilakukan, pengguna dapat menekan tombol Simpan untuk menyimpan pembaruan data. Data transaksi kemudian akan diperbarui di dalam sistem sesuai dengan perubahan yang telah dilakukan.
 
-#### Sesudah Edit Data
+### Sesudah Edit Data
 
 ![image alt](https://github.com/indahputri24/MINPRO_2_PAB_004_Indah-Putri-Lestari/blob/4bf692db74cf549b03e6af12d5a1098d6271ee73/screenshot/Cuplikan%20layar%202026-03-15%20221428.png)
 
@@ -168,7 +168,7 @@ Selain perubahan nominal, pengguna juga menambahkan catatan tambahan, sehingga k
 
 ## 4. Hapus Data Transaksi
 
-#### Sebelum Hapus Data
+### Sebelum Hapus Data
 
 ![image alt](https://github.com/indahputri24/MINPRO_2_PAB_004_Indah-Putri-Lestari/blob/a1618b9330c4bcbe35c7f59f48553366ab94daf7/screenshot/Cuplikan%20layar%202026-03-16%20132135.png)
 
@@ -182,7 +182,7 @@ Baris data yang dicentang menunjukkan transaksi dengan keterangan “Tahu Bakso�
 
 Data ini merupakan data transaksi yang masih tersimpan di database sebelum dilakukan proses penghapusan melalui aplikasi.
 
-#### Hapus Data
+### Hapus Data
 
 ![image alt](https://github.com/indahputri24/MINPRO_2_PAB_004_Indah-Putri-Lestari/blob/a1618b9330c4bcbe35c7f59f48553366ab94daf7/screenshot/Cuplikan%20layar%202026-03-16%20132239.png)
 
@@ -192,7 +192,7 @@ Pada tampilan ini terdapat dua pilihan, yaitu Batal untuk membatalkan proses pen
 
 Jika pengguna memilih Hapus, maka data transaksi akan dihapus dari aplikasi sekaligus dari database Supabase, sehingga transaksi tersebut tidak lagi muncul pada daftar transaksi.
 
-#### Sesudah Hapus Data
+### Sesudah Hapus Data
 
 ![image alt](https://github.com/indahputri24/MINPRO_2_PAB_004_Indah-Putri-Lestari/blob/a1618b9330c4bcbe35c7f59f48553366ab94daf7/screenshot/Cuplikan%20layar%202026-03-16%20132246.png)
 
@@ -212,7 +212,7 @@ Setelah proses penghapusan dilakukan melalui aplikasi, data transaksi “Tahu Ba
 
 Halaman Login digunakan oleh pengguna untuk masuk ke dalam aplikasi setelah akun berhasil dibuat dan diverifikasi.
 
-#### Validasi Input Kosong
+### Validasi Input Kosong
 
 ![image alt](https://github.com/indahputri24/MINPRO_2_PAB_004_Indah-Putri-Lestari/blob/a05fa7a57cafc5e6b1f350f69c2c13c2eee7f7d1/screenshot/Cuplikan%20layar%202026-03-15%20214042.png)
 
@@ -220,13 +220,13 @@ Pada halaman ini, pengguna diminta memasukkan email dan password yang telah dida
 
 Sistem juga menerapkan validasi input, sehingga jika kolom email atau password kosong, akan muncul pesan kesalahan seperti “Email wajib diisi” atau “Password wajib diisi”. Jika data yang dimasukkan benar, pengguna akan langsung diarahkan ke halaman utama aplikasi.
 
-#### Validasi Salah Input
+### Validasi Salah Input
 
 ![image alt](https://github.com/indahputri24/MINPRO_2_PAB_004_Indah-Putri-Lestari/blob/a18c0a7ba9fb4c2ba6cccc78ac3ddecd6302da6c/screenshot/Cuplikan%20layar%202026-03-16%20120302.png)
 
 Jika pengguna memasukkan email atau password yang salah, sistem akan menampilkan notifikasi Login Gagal di bagian atas halaman. Pesan ini memberi tahu bahwa email atau password tidak sesuai dengan data yang terdaftar.
 
-#### Validasi Input Terisi Benar
+### Validasi Input Terisi Benar
 
 ![image alt](https://github.com/indahputri24/MINPRO_2_PAB_004_Indah-Putri-Lestari/blob/a18c0a7ba9fb4c2ba6cccc78ac3ddecd6302da6c/screenshot/Cuplikan%20layar%202026-03-15%20214058.png)
 
@@ -236,7 +236,7 @@ Hal ini bertujuan untuk memberi tahu pengguna bahwa aplikasi sedang memeriksa da
 
 ## 6. Register (Nilai Tambah)
 
-#### Validasi Input Kosong
+### Validasi Input Kosong
 
 ![image alt](https://github.com/indahputri24/MINPRO_2_PAB_004_Indah-Putri-Lestari/blob/a05fa7a57cafc5e6b1f350f69c2c13c2eee7f7d1/screenshot/Cuplikan%20layar%202026-03-15%20211121.png)
 
@@ -250,7 +250,7 @@ Password: wajib diisi dan minimal terdiri dari 6 karakter.
 
 Jika salah satu input tidak memenuhi syarat, sistem akan menampilkan pesan kesalahan di bawah kolom input sehingga pengguna dapat langsung memperbaiki data yang dimasukkan.
 
-#### Validasi Input Format Email dan Password
+### Validasi Input Format Email dan Password
 
 ![image alt](https://github.com/indahputri24/MINPRO_2_PAB_004_Indah-Putri-Lestari/blob/a05fa7a57cafc5e6b1f350f69c2c13c2eee7f7d1/screenshot/Cuplikan%20layar%202026-03-15%20213821.png)
 
@@ -258,7 +258,7 @@ Email tidak valid: jika format email tidak sesuai (tidak mengandung @ atau forma
 
 Password terlalu pendek: jika password kurang dari 6 karakter, sistem akan menampilkan pesan “Password minimal 6 karakter”.
 
-#### Validasi Input Terisi Benar
+### Validasi Input Terisi Benar
 
 ![image alt](https://github.com/indahputri24/MINPRO_2_PAB_004_Indah-Putri-Lestari/blob/a05fa7a57cafc5e6b1f350f69c2c13c2eee7f7d1/screenshot/Cuplikan%20layar%202026-03-15%20213846.png)
 
@@ -266,7 +266,7 @@ Pengguna telah mengisi seluruh data dengan benar seperti nama pengguna, email, d
 
 Proses ini memastikan bahwa akun baru dapat dibuat dan disimpan dengan aman sebelum pengguna melanjutkan ke tahap berikutnya, yaitu verifikasi email.
 
-#### Verifikasi Email
+### Verifikasi Email
 
 ![image alt](https://github.com/indahputri24/MINPRO_2_PAB_004_Indah-Putri-Lestari/blob/a05fa7a57cafc5e6b1f350f69c2c13c2eee7f7d1/screenshot/Cuplikan%20layar%202026-03-15%20213852.png)
 
@@ -274,7 +274,7 @@ Setelah proses registrasi berhasil, pengguna akan diarahkan ke halaman Check You
 
 Pengguna perlu membuka email tersebut dan mengklik link verifikasi agar akun dapat diaktifkan sebelum melakukan login. Pada halaman ini juga tersedia beberapa opsi seperti membuka email langsung, mengirim ulang email verifikasi, serta tombol untuk kembali ke halaman login.
 
-#### Membuka Email Verifikasi
+### Membuka Email Verifikasi
 
 ![image alt](https://github.com/indahputri24/MINPRO_2_PAB_004_Indah-Putri-Lestari/blob/a05fa7a57cafc5e6b1f350f69c2c13c2eee7f7d1/screenshot/Cuplikan%20layar%202026-03-15%20213944.png)
 
@@ -282,13 +282,13 @@ Ketika pengguna menekan tombol Buka Email pada halaman verifikasi, aplikasi akan
 
 Pada halaman email tersebut, pengguna akan menerima pesan dari Supabase Auth yang berisi link konfirmasi pendaftaran akun. Pengguna hanya perlu menekan tombol atau link “Confirm your mail” untuk memverifikasi akun yang telah didaftarkan.
 
-#### Konfirmasi Email Berhasil
+### Konfirmasi Email Berhasil
 
 ![image alt](https://github.com/indahputri24/MINPRO_2_PAB_004_Indah-Putri-Lestari/blob/a05fa7a57cafc5e6b1f350f69c2c13c2eee7f7d1/screenshot/Cuplikan%20layar%202026-03-15%20213956.png)
 
 Setelah pengguna menekan link “Confirm your mail” pada email verifikasi, sistem akan secara otomatis mengarahkan pengguna kembali ke aplikasi. Jika proses verifikasi berhasil, pengguna langsung masuk ke halaman utama (Home Page) aplikasi.
 
-#### Kirim Ulang Email Verifikasi
+### Kirim Ulang Email Verifikasi
 
 ![image alt](https://github.com/indahputri24/MINPRO_2_PAB_004_Indah-Putri-Lestari/blob/a05fa7a57cafc5e6b1f350f69c2c13c2eee7f7d1/screenshot/Cuplikan%20layar%202026-03-15%20214019.png)
 
