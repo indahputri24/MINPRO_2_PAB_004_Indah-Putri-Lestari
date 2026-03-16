@@ -341,8 +341,8 @@ class _AddPageState extends State<AddPage> {
                                         "Pengeluaran",
                                         style: TextStyle(
                                           color: pilihTipe == "Pengeluaran"
-                                            ? const Color.fromARGB(255, 244, 67, 54) // merah saat aktif
-                                            : Theme.of(context).textTheme.bodyMedium?.color, // warna default theme
+                                            ? const Color.fromARGB(255, 244, 67, 54)
+                                            : Theme.of(context).textTheme.bodyMedium?.color,
                                           fontWeight: FontWeight.w600,
                                         ),
                                       ),
