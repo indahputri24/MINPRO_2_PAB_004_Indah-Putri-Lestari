@@ -6,7 +6,7 @@ NIM: 2409116004
 
 Kelas: A
 
-# Deskripsi Apliksi Catatan Keuangan Pribadi (MY PINK FINANCE)
+# Deskripsi Aplikasi Catatan Keuangan Pribadi (MY PINK FINANCE)
 
 My Pink Finance adalah aplikasi pencatatan keuangan pribadi yang dibuat menggunakan Flutter. Aplikasi ini membantu pengguna dalam mencatat pemasukan dan pengeluaran dengan mudah serta memantau kondisi keuangan secara terorganisir.
 
