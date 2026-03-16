@@ -298,7 +298,7 @@ Ketika tombol Kirim Ulang Email ditekan, sistem akan mengirim kembali link verif
 
 Untuk mencegah penyalahgunaan, tombol kirim ulang juga dilengkapi dengan waktu tunggu (countdown 3 menit) sebelum pengguna dapat mengirim ulang email verifikasi berikutnya.
 
-### g. Notifikasi Registrasi Gagal
+### h. Notifikasi Registrasi Gagal
 
 ![image alt](https://github.com/indahputri24/MINPRO_2_PAB_004_Indah-Putri-Lestari/blob/4b999e7967cdcaac1f99bd2fe10c0b348156a4e2/screenshot/Cuplikan%20layar%202026-03-15%20222148.png)
 
@@ -435,4 +435,11 @@ Kode tersebut berfungsi untuk membaca variabel dari file `.env`, kemudian menggu
 ### L. Widget Package Tambahan
 47. TableCalendar: Digunakan untuk menampilkan kalender interaktif yang memungkinkan pengguna memilih tanggal transaksi pada halaman utama aplikasi.
 
+# Package
 
+1. table_calendar: Digunakan untuk menampilkan kalender interaktif sehingga pengguna dapat memilih tanggal transaksi dan melihat data berdasarkan tanggal tertentu.
+2. get: Digunakan untuk tiga fungsi utama yaitu navigasi antar halaman, pengelolaan state secara reaktif menggunakan Obx, serta menampilkan dialog atau snackbar.
+3. supabase_flutter: Digunakan untuk melakukan autentikasi pengguna (login dan register), serta melakukan operasi database seperti mengambil, menambah, memperbarui, dan menghapus data transaksi.
+4. flutter_dotenv: Digunakan untuk mengambil nilai `SUPABASE_URL` dan `SUPABASE_ANON_KEY` dari file `.env` saat aplikasi dijalankan.
+5. url_launcher: Digunakan pada halaman verifikasi email untuk membuka aplikasi email pengguna seperti Gmail atau membuka layanan email melalui browser.
+6. get_storage: Digunakan untuk menyimpan data kecil seperti pengaturan tema aplikasi (dark mode atau light mode) agar tetap tersimpan meskipun aplikasi ditutup.
