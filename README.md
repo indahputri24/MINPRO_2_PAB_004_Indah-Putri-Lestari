@@ -190,8 +190,6 @@ Ketika pengguna menekan tombol Hapus pada detail transaksi, aplikasi akan menamp
 
 Pada tampilan ini terdapat dua pilihan, yaitu Batal untuk membatalkan proses penghapusan dan kembali ke halaman sebelumnya, serta Hapus untuk melanjutkan proses penghapusan data transaksi.
 
-Jika pengguna memilih Hapus, maka data transaksi akan dihapus dari aplikasi sekaligus dari database Supabase, sehingga transaksi tersebut tidak lagi muncul pada daftar transaksi.
-
 ### c. Sesudah Hapus Data
 
 ![image alt](https://github.com/indahputri24/MINPRO_2_PAB_004_Indah-Putri-Lestari/blob/a1618b9330c4bcbe35c7f59f48553366ab94daf7/screenshot/Cuplikan%20layar%202026-03-16%20132246.png)
